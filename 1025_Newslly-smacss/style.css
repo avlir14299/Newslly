@@ -1,0 +1,186 @@
+/*文字コード*/
+@charset "UTF-8";
+
+/*BASE
+----------------------*/
+
+body {
+  color: #6C6C6F;
+  font-size: 16px;
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 1.7;
+  letter-spacing: 0;
+  background-color: #fff;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: bottom;
+}
+
+/*LAYOUT
+------------------------*/
+
+.l-inner {
+  width: 88%;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.l-mb6 {
+  margin-bottom: 60px;
+}
+
+.l-mb4 {
+  margin-bottom: 40px;
+}
+
+.l-mb2 {
+  margin-bottom: 20px;
+}
+
+.l-pd6 {
+  padding: 60px 0;
+}
+
+.l-pd3 {
+  padding: 35px;
+}
+
+/* flexbox */
+
+.l-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.l-direction-reverse {
+  flex-direction: row-reverse;
+}
+
+.l-col2 {
+  width: 47.5%;
+}
+
+.l-col3 {
+  width: 30%;
+}
+
+/* color */
+
+.l-bg-black {
+  background-color: #202124;
+}
+
+.l-bg-gray {
+  background-color: #F6F6F6;
+}
+
+.l-bg-white {
+  background-color: #fff;
+}
+
+/* text */
+
+.l-section-title {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 31px;
+  color: #202124;
+  padding-left: 10px;
+  border-left: solid 10px #FA6980;
+  margin-bottom: 30px;
+}
+
+.l-text-border {
+  padding-bottom: 10px;
+  border-bottom: solid 1px #DDDDDD;
+}
+
+/* header */
+
+.l-header {
+  padding: 30px 0 60px;
+}
+
+.l-header img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+
+/* footer */
+
+.l-footer {
+  padding: 100px 0 40px;
+}
+
+small {
+  color: #BBBBBB;
+}
+
+/* MODULE
+------------------------*/
+
+
+/* unit */
+
+.unit-category {
+  font-size: 12px;
+  font-style: italic;
+  color: #FA6980;
+  margin-bottom: 10px;
+}
+
+.unit-title {
+  font-size: 18px;
+  line-height: 1;
+  font-weight: bold;
+  color: #202124;
+  margin-bottom: 15px;
+}
+
+/* card */
+.card-title {
+  font-size: 18px;
+  line-height: 1;
+  font-weight: bold;
+  color: #202124;
+  margin-bottom: 15px;
+}
+
+
+
+/* time */
+
+.time {
+  padding-left: 26px;
+  margin-top: 20px;
+  background: url(./images/icon_time.png) no-repeat left center;
+}
+
+/* btn */
+
+.btn {
+  display: block;
+  padding: 14px;
+  width: 160px;
+  margin-top: 25px;
+  margin-left: auto;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+  background-color: #FA6980;
+  text-decoration: none;
+}
+
+.btn-black {
+  background-color: #202124;
+}
